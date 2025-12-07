@@ -6,14 +6,14 @@
 
 @font-face {
   font-family: "bebas neue";
-  src: url("./fonts/BebasNeue-Regular.ttf") format("woff");
+  src: url("/eksamen2025/fonts/BebasNeue-Regular.ttf") format("woff");
 }
 
 body {
-  background-image: url("./img/baggrund-medstreger.webp");
+  background-image: url("/eksamen2025/img/baggrund-medstreger.webp");
 }
 .background {
-  background-image: url("./img/baggrundsbryster.png");
+  background-image: url("/eksamen2025/img/baggrundsbryster.png");
   background-size: cover;
   background-position: center;
   height: 100vh;
