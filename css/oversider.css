@@ -1,52 +1,52 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 @font-face {
-    font-family: 'bebas neue';
-    src: url('/fonts/BebasNeue-Regular.ttf') format('woff');
+  font-family: "bebas neue";
+  src: url("./fonts/BebasNeue-Regular.ttf") format("woff");
 }
 
 body {
-    background-image: url('/img/baggrund-medstreger.webp');
+  background-image: url("./img/baggrund-medstreger.webp");
 }
 
 section {
-    height: 1024px;
-    width: 1366px;
+  height: 1024px;
+  width: 1366px;
 }
 h1 {
-    font-family: 'bebas neue';
-    color: #c2241d;
-    font-size: 5rem;
-    text-align: center;
-    padding-top: 414px;
-    padding-left: 30px;
-    padding-right: 30px;
+  font-family: "bebas neue";
+  color: #c2241d;
+  font-size: 5rem;
+  text-align: center;
+  padding-top: 414px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 h1:hover {
-    transform: translateY(-5px);
-    transition: transform 0.3s ease;
-    color: #E46087; 
+  transform: translateY(-5px);
+  transition: transform 0.3s ease;
+  color: #e46087;
 }
 
 h3 {
-    font-family: 'bebas neue';
-    color: #c2241d;
-    font-size: 3rem;
-    text-align: center;
+  font-family: "bebas neue";
+  color: #c2241d;
+  font-size: 3rem;
+  text-align: center;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .afslutknap {
-    position: absolute;
-    width: 142px;
-    height: 135px;
-    bottom: 0;
-    right: 0;
+  position: absolute;
+  width: 142px;
+  height: 135px;
+  bottom: 0;
+  right: 0;
 }

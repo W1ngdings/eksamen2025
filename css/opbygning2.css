@@ -1,118 +1,116 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 @font-face {
-    font-family: 'bebas neue';
-    src: url('/fonts/BebasNeue-Regular.ttf') format('woff');
+  font-family: "bebas neue";
+  src: url("./fonts/BebasNeue-Regular.ttf") format("woff");
 }
 
 body {
-    background-color: #e39695;
-    font-family: 'bebas neue', sans-serif;
-    display: flex;
-    justify-content: space-between; 
-    align-items: flex-start; 
-    height: 1024px; 
-    width: 1366px; 
-    margin: auto; 
-    overflow: hidden; 
-    position: relative; 
+  background-color: #e39695;
+  font-family: "bebas neue", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 1024px;
+  width: 1366px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
 }
 
 section {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    width: 100%;
-    height: 97%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  height: 97%;
 }
 
-
 .button-container {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-top: 20px; 
-    margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 20px;
+  margin-left: 20px;
 }
 
 .button-container button {
-    background-color: #e39695;
-    border: 2px solid #c2241d;
-    color: #c2241d;
-    font-family: bebas neue;
-    font-size: 28px; 
-    padding: 20px 40px; 
-    text-align: center;
-    cursor: pointer;
-    width: 300px;
+  background-color: #e39695;
+  border: 2px solid #c2241d;
+  color: #c2241d;
+  font-family: bebas neue;
+  font-size: 28px;
+  padding: 20px 40px;
+  text-align: center;
+  cursor: pointer;
+  width: 300px;
 }
 
-
 .anatomibryster {
-    width: 878px;
-    height: auto;
-    position: absolute; 
-    top: 0; 
-    right: 0; 
+  width: 878px;
+  height: auto;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 .red-dot {
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    background-color: red;
-    border-radius: 50%;
-    cursor: pointer;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-color: red;
+  border-radius: 50%;
+  cursor: pointer;
 }
 
 #dot1 {
-    top: 557px;
-    left: 685px;
+  top: 557px;
+  left: 685px;
 }
 
 #dot2 {
-    top: 57px;
-    left: 1218px;
+  top: 57px;
+  left: 1218px;
 }
 
 #dot3 {
-    top: 419px;
-    left: 993px;
+  top: 419px;
+  left: 993px;
 }
 
 #dot4 {
-    top: 293px;
-    left: 1099px;
+  top: 293px;
+  left: 1099px;
 }
 
 #dot5 {
-    top: 556px;
-    left: 1275px;
+  top: 556px;
+  left: 1275px;
 }
 
 #dot6 {
-    top: 809px;
-    left: 1118px;
+  top: 809px;
+  left: 1118px;
 }
 
 #connectionCanvas {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    pointer-events: none; /* Prevent interference with mouse events */
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  pointer-events: none; /* Prevent interference with mouse events */
 }
 
 .afslutknap {
-    position: absolute;
-    width: 142px;
-    height: 135px;
-    bottom: 0;
-    right: 0;
+  position: absolute;
+  width: 142px;
+  height: 135px;
+  bottom: 0;
+  right: 0;
 }
 
 .connection-line {

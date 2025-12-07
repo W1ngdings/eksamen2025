@@ -1,60 +1,60 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 @font-face {
-    font-family: 'bebas neue';
-    src: url('/fonts/BebasNeue-Regular.ttf') format('woff');
+  font-family: "bebas neue";
+  src: url("./fonts/BebasNeue-Regular.ttf") format("woff");
 }
 
-h1{
-    font-family: 'bebas neue';
-    color: #C62D26;
-    font-size: 8rem;
-    padding-bottom: 2rem;
+h1 {
+  font-family: "bebas neue";
+  color: #c62d26;
+  font-size: 8rem;
+  padding-bottom: 2rem;
 }
 
-article{
-    font-family: 'bebas neue';
-    color: #C62D26;
-    font-size: 2.8rem;
-    text-decoration: none;
+article {
+  font-family: "bebas neue";
+  color: #c62d26;
+  font-size: 2.8rem;
+  text-decoration: none;
 }
 
-.sendvidere{
-    font-family: 'bebas neue';
-    color: #C62D26;
-    font-size: 2.8rem;
-    text-decoration: none;
+.sendvidere {
+  font-family: "bebas neue";
+  color: #c62d26;
+  font-size: 2.8rem;
+  text-decoration: none;
 }
 
-.sendvidere:hover{
-    transform: translateY(-5px);
-    transition: transform 0.3s ease;
-    color: #E46087; 
-    text-decoration: none;
+.sendvidere:hover {
+  transform: translateY(-5px);
+  transition: transform 0.3s ease;
+  color: #e46087;
+  text-decoration: none;
 }
 
 .background {
-    background-image: url("/img/sloerret-baggrund.webp"); 
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 2rem;
+  background-image: url("./img/sloerret-baggrund.webp");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
 }
 
 .content {
-    color: white;
-    border-radius: 1rem;
-    max-width: 1000px;
-    text-align: center;
+  color: white;
+  border-radius: 1rem;
+  max-width: 1000px;
+  text-align: center;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }

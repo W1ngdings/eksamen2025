@@ -1,57 +1,57 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 @font-face {
-    font-family: 'bebas neue';
-    src: url('/fonts/BebasNeue-Regular.ttf') format('woff');
+  font-family: "bebas neue";
+  src: url("./fonts/BebasNeue-Regular.ttf") format("woff");
 }
 
 body {
-    background-image: url('/img/baggrund-medstreger.webp');
+  background-image: url("./img/baggrund-medstreger.webp");
 }
 
-h1{
-    font-family: 'bebas neue';
-    color: #C62D26;
-    font-size: 8rem;
-    padding-bottom: 2rem;
-    text-align: center;
-    padding-top: 6rem;
+h1 {
+  font-family: "bebas neue";
+  color: #c62d26;
+  font-size: 8rem;
+  padding-bottom: 2rem;
+  text-align: center;
+  padding-top: 6rem;
 }
 
 .billedegrid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
-    justify-items: center;
-    padding: 4rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  justify-items: center;
+  padding: 4rem;
 }
 .billedegrid img {
-    width: 100%;
-    max-width: 300px;
-    height: auto;
-    border-radius: 12px; 
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 12px;
 }
 
 .brystvortegrid img:nth-child(3),
 .brystvortegrid img:nth-child(4) {
-    margin-top: 4rem; 
+  margin-top: 4rem;
 }
 
-.brystvortegrid img{
-    width: 100%;
-    max-width: 300px;
-    height: auto;
-    padding-bottom: 6rem;
+.brystvortegrid img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  padding-bottom: 6rem;
 }
 
 .afslutknap {
-    position: absolute;
-    width: 142px;
-    height: 135px;
-    bottom: 0;
-    right: 0;
+  position: absolute;
+  width: 142px;
+  height: 135px;
+  bottom: 0;
+  right: 0;
 }

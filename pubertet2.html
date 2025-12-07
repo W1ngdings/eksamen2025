@@ -1,43 +1,50 @@
 <!DOCTYPE html>
 <html lang="da">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Eksamen</title>
-    <link rel="stylesheet" href="css/pubertet.css">
-</head>
-<body>
+    <link rel="stylesheet" href="css/pubertet.css" />
+  </head>
+  <body>
     <section class="quiz-container">
-        <h2>Hvad kendetegner stadie 1?</h2>
-        <section class="svarmuligheder">
-            <button class="svarmulighed knappe-a">A) Brystet har voksen form</button>
-            <button class="svarmulighed knappe-b">B) Kun brystknopper er begyndt at danne sig</button>
-            <button class="svarmulighed knappe-c" data-korrekt="true">C) Ingen synlig brystudvikling endnu</button>
-            <button class="svarmulighed knappe-d">D) Bryst og brystvorte er tydeligt adskilt</button>
-        </section>
+      <h2>Hvad kendetegner stadie 1?</h2>
+      <section class="svarmuligheder">
+        <button class="svarmulighed knappe-a">
+          A) Brystet har voksen form
+        </button>
+        <button class="svarmulighed knappe-b">
+          B) Kun brystknopper er begyndt at danne sig
+        </button>
+        <button class="svarmulighed knappe-c" data-korrekt="true">
+          C) Ingen synlig brystudvikling endnu
+        </button>
+        <button class="svarmulighed knappe-d">
+          D) Bryst og brystvorte er tydeligt adskilt
+        </button>
+      </section>
     </section>
 
     <!-- Rigtigt svar overlay -->
     <section id="resultat-overlay" class="overlay">
-        <div id="resultat" class="svar">
-            <span class="svar-tekst">
-                Rigtigt svar: C – Stadie 1 er førpubertet, hvor der ikke er synlig udvikling endnu.<br>
-                Næste spørgsmål: <a href="pubertet3.html">tryk her</a>
-            </span> 
-        </div>
+      <div id="resultat" class="svar">
+        <span class="svar-tekst">
+          Rigtigt svar: C – Stadie 1 er førpubertet, hvor der ikke er synlig
+          udvikling endnu.<br />
+          Næste spørgsmål: <a href="pubertet3.html">tryk her</a>
+        </span>
+      </div>
     </section>
 
     <!-- Forkert svar overlay -->
     <section id="forkert-overlay" class="overlay">
-        <button class="svar">
-            <span class="svar-tekst">
-                Forkert svar – prøv igen!
-            </span> 
-        </button>
+      <button class="svar">
+        <span class="svar-tekst"> Forkert svar – prøv igen! </span>
+      </button>
     </section>
 
     <a href="menu.html">
-        <img src="img/afslutknap.png" alt="afslutknap" class="afslutknap">
+      <img src="./img/afslutknap.png" alt="afslutknap" class="afslutknap" />
     </a>
 
     <!-- Lyd -->
@@ -47,6 +54,5 @@
     <!-- Scripts -->
     <script src="js/pubertet.js"></script>
     <script src="js/lyd.js"></script>
-</body>
+  </body>
 </html>
-

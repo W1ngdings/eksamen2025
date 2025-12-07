@@ -1,43 +1,49 @@
 <!DOCTYPE html>
 <html lang="da">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Eksamen</title>
-    <link rel="stylesheet" href="css/pubertet.css">
-</head>
-<body>
+    <link rel="stylesheet" href="css/pubertet.css" />
+  </head>
+  <body>
     <section class="quiz-container">
-        <h2>Hvilket udsagn beskriver bedst stadie 3?</h2>
-        <section class="svarmuligheder">
-            <button class="svarmulighed knappe-a">A) Brystet er vokset og har fået voksen form</button>
-            <button class="svarmulighed knappe-b">B) Bryst og areola er stadig fladt mod brystvæggen</button>
-            <button class="svarmulighed knappe-c" data-korrekt="true">
-                C) Brystet vokser yderligere uden markant adskillelse mellem bryst og areola
-            </button>
-            <button class="svarmulighed knappe-d">D) Mælkeproduktionen starter</button>
-        </section>
+      <h2>Hvilket udsagn beskriver bedst stadie 3?</h2>
+      <section class="svarmuligheder">
+        <button class="svarmulighed knappe-a">
+          A) Brystet er vokset og har fået voksen form
+        </button>
+        <button class="svarmulighed knappe-b">
+          B) Bryst og areola er stadig fladt mod brystvæggen
+        </button>
+        <button class="svarmulighed knappe-c" data-korrekt="true">
+          C) Brystet vokser yderligere uden markant adskillelse mellem bryst og
+          areola
+        </button>
+        <button class="svarmulighed knappe-d">
+          D) Mælkeproduktionen starter
+        </button>
+      </section>
     </section>
 
     <section id="resultat-overlay" class="overlay">
-        <div id="resultat" class="svar">
-            <span class="svar-tekst">
-                Rigtigt svar: C – I stadie 3 vokser brystet yderligere uden markant adskillelse mellem bryst og areola.<br>
-                Næste spørgsmål: <a href="pubertet5.html">tryk her</a>
-            </span>
-        </div>
+      <div id="resultat" class="svar">
+        <span class="svar-tekst">
+          Rigtigt svar: C – I stadie 3 vokser brystet yderligere uden markant
+          adskillelse mellem bryst og areola.<br />
+          Næste spørgsmål: <a href="pubertet5.html">tryk her</a>
+        </span>
+      </div>
     </section>
 
     <section id="forkert-overlay" class="overlay">
-        <button class="svar">
-            <span class="svar-tekst">
-                Forkert svar – prøv igen!
-            </span> 
-        </button>
+      <button class="svar">
+        <span class="svar-tekst"> Forkert svar – prøv igen! </span>
+      </button>
     </section>
 
     <a href="menu.html">
-        <img src="img/afslutknap.png" alt="afslutknap" class="afslutknap">
+      <img src="./img/afslutknap.png" alt="afslutknap" class="afslutknap" />
     </a>
 
     <audio id="correctSound" src="lyd/rigtigt-svar.mp3" preload="auto"></audio>
@@ -45,6 +51,5 @@
 
     <script src="js/pubertet.js"></script>
     <script src="js/lyd.js"></script>
-</body>
+  </body>
 </html>
-

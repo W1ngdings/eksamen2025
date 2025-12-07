@@ -1,41 +1,46 @@
 <!DOCTYPE html>
 <html lang="da">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Eksamen</title>
-    <link rel="stylesheet" href="css/pubertet.css">
-</head>
-<body>
+    <link rel="stylesheet" href="css/pubertet.css" />
+  </head>
+  <body>
     <section class="quiz-container">
-        <h2>Hvad kendetegner stadie 5?</h2>
-        <section class="svarmuligheder">
-            <button class="svarmulighed knappe-a">A) Brystvorten forsvinder</button>
-            <button class="svarmulighed knappe-b" data-korrekt="true">B) Brystet er færdigudviklet med voksen form</button>
-            <button class="svarmulighed knappe-c">C) Kun det ene bryst er udviklet</button>
-            <button class="svarmulighed knappe-d">D) Brystudviklingen stopper pludseligt</button>            
-        </section>
+      <h2>Hvad kendetegner stadie 5?</h2>
+      <section class="svarmuligheder">
+        <button class="svarmulighed knappe-a">A) Brystvorten forsvinder</button>
+        <button class="svarmulighed knappe-b" data-korrekt="true">
+          B) Brystet er færdigudviklet med voksen form
+        </button>
+        <button class="svarmulighed knappe-c">
+          C) Kun det ene bryst er udviklet
+        </button>
+        <button class="svarmulighed knappe-d">
+          D) Brystudviklingen stopper pludseligt
+        </button>
+      </section>
     </section>
-   
+
     <section id="resultat-overlay" class="overlay">
-        <div id="resultat" class="svar">
-            <span class="svar-tekst">
-                Rigtigt svar: B – Stadie 5 er det sidste udviklingsstadie, hvor brystet har fået sin voksne, færdige form.<br>
-                Næste spørgsmål: <a href="index.html">tryk her</a>
-            </span> 
-        </div>
+      <div id="resultat" class="svar">
+        <span class="svar-tekst">
+          Rigtigt svar: B – Stadie 5 er det sidste udviklingsstadie, hvor
+          brystet har fået sin voksne, færdige form.<br />
+          Næste spørgsmål: <a href="index.html">tryk her</a>
+        </span>
+      </div>
     </section>
 
     <section id="forkert-overlay" class="overlay">
-        <button class="svar">
-            <span class="svar-tekst">
-                Forkert svar – prøv igen!
-            </span> 
-        </button>
+      <button class="svar">
+        <span class="svar-tekst"> Forkert svar – prøv igen! </span>
+      </button>
     </section>
 
     <a href="menu.html">
-        <img src="img/afslutknap.png" alt="afslutknap" class="afslutknap">
+      <img src="./img/afslutknap.png" alt="afslutknap" class="afslutknap" />
     </a>
 
     <audio id="correctSound" src="lyd/rigtigt-svar.mp3" preload="auto"></audio>
@@ -43,5 +48,5 @@
 
     <script src="js/pubertet.js"></script>
     <script src="js/lyd.js"></script>
-</body>
+  </body>
 </html>
